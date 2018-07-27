@@ -1,0 +1,3 @@
+STELLAR_CORE_URL=http://localhost:11626
+STELLAR_CORE_DATABASE_URL="postgres://postgres:postgres@localhost/core-testnet?sslmode=disable"
+DATABASE_URL="postgres://postgres:postgres@localhost/horizon-testnet?sslmode=disable"

@@ -1,0 +1,16 @@
+[DOCUMENTATION]
+ORG_GITHUB = "${ORGANIZATION_GITHUB_ACCOUNT}"
+ORG_NAME = "${ORGANIZATION_NAME}"
+ORG_OFFICIAL_EMAIL = "${ORGANIZATION_CONTACT_EMAIL}"
+ORG_TWITTER = "${ORGANIZATION_TWITTER_ACCOUNT}"
+ORG_URL = "${ORGANIZATION_URL}"
+[[CURRENCIES]]
+code = "${TOKEN_CODE}"
+conditions = "${TOKEN_CONDITIONS}" #Put here the information about maximum token supply, for example - 1000000.
+desc = "${TOKEN_DESCRIPTION}"
+display_decimals = ${TOKEN_DECIMAL_POINTS}
+fixed_number = ${TOKEN_TOTAL_SUPPLY}
+image = "${TOKEN_WEB_SITE_URL}"
+issuer = "${TOKEN_ISSUER_PUBLIC_ID}"
+name = "${TOKEN_FULL_NAME}"
+status = "live"

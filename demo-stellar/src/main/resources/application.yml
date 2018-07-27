@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+stellar:
+  networkType: TEST
+  horizon:
+    url: http://localhost:8000
+  friendbot:
+    url: https://friendbot.stellar.org/?addr=%s

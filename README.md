@@ -1,6 +1,9 @@
 # bifrost-demo
 This demo application is to test creating, issuing and distributing tokens based on Stellar platform using Stellar Bifrost.
 
+bifrost-listener - Simple web app for serving requests from bifrost sever
+demo-stellar - Smart contracts application.
+
 To make the application up and running, there must be provided the Horizon server, Stellar core node and Bifrost server (if contributions in ETH/BTC are enabled).
 The application was tested with the components described above (built for Linux platform) and their versions are as follows:
 - Stellar core v9.2.0-239-g9af27ef (built from source)
